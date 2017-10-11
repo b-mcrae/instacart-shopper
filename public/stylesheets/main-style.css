@@ -18,5 +18,7 @@ body {
   background-color: #eee;
   padding: 20px;
   border-radius: 6px; }
+  .application-form .application-form-description {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main-style.css.map */
