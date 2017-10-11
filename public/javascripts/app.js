@@ -16,5 +16,6 @@ app.controller('mainController', function($scope, $http) {
    */
   $scope.submitApplicationForm = function(formData) {
     console.log(formData);
+    alert("Thank you so much for your submission! We got it!");
   };
 });
