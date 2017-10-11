@@ -24,13 +24,13 @@
           <div class="jumbotron">
             <p class="lead">Earn money shopping and delivering groceries, giving customers more time to do what they love.</p>
             <p class="lead">
-              <a class="btn btn-success btn-lg" href="#" role="button">Apply Now</a>
+              <a class="btn btn-success btn-lg" role="button" ng-click="toggleApplicationForm()">Apply Now</a>
             </p>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" ng-if="showApplicationForm">
         <div class="col-sm-12">
           <div class="application-form">
             <div class="application-form-description">
