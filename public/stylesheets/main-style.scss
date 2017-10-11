@@ -5,7 +5,7 @@ body {
 .main-logo-container {
   width: 100%;
   height: 70px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .main-logo {
@@ -16,4 +16,10 @@ body {
 
 #main-body-content {
   margin-top: 100px;
+}
+
+.application-form {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 6px;
 }
